@@ -10,7 +10,7 @@ public class Fortune {
 	public String start() {
 		double fn = Math.random(); // 0.0~1.0の乱数
 		if (fn >= 0.7) {
-			retutn "greatFortune.html";
+			return "greatFortune.html";
 		} else if (fn >= 0.4) {
 			return "middleFortune.html";
 		} else if (fn >= 0.1) {
